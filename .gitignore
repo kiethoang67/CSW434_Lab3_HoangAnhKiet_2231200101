@@ -1,0 +1,24 @@
+# OSX
+.DS_Store
+
+# Android/IntelliJ
+**/build/
+**/.idea/
+**/.gradle/
+**/.kotlin/
+**/local.properties
+**/*.iml
+**/*.hprof
+**/.cxx/
+**/*.keystore
+!**/debug.keystore
+**/index.android.bundle
+
+# node.js
+**/node_modules/
+**/node_modules
+npm-debug.log
+yarn-error.log
+
+# Bundle artifact
+*.jsbundle
